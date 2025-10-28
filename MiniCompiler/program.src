@@ -1,0 +1,13 @@
+x = 1; 
+y = 0; 
+
+func add(a, b) {
+  return a + b;
+}
+
+while (x <= 5) x = x + 1; 
+if (x > 5) y = 100;
+
+print(add(2, 3));   
+x = add(5, 7);      
+add(x, 1); 
